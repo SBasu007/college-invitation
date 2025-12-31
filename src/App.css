@@ -268,3 +268,15 @@ body {
 .main-title h1:hover {
   animation: glow 2s infinite;
 }
+
+/* Mobile: Make invitation-container full width */
+@media (max-width: 600px) {
+  .invitation-container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
