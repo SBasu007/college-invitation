@@ -6,10 +6,10 @@ const App = () => {
   return (
     <div className="invitation-container">
       {/* Header Section */}
-         <div className="header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '2rem', marginBottom: '1rem' }}>
-           <img className="logo-placeholder aiite-logo" src="/atal.png" alt="AICTE Logo" style={{ objectFit: 'contain', width: 120, height: 80, background: 'white', borderRadius: 12 }} />
-           <img className="logo-placeholder vaani-logo" src="/AICTE.png" alt="VAANI Logo" style={{ objectFit: 'contain', width: 120, height: 80, background: 'white', borderRadius: 12 }} />
-           <img className="logo-placeholder rcciit-logo" src="/rcc.png" alt="RCCIIT Logo" style={{ objectFit: 'contain', width: 120, height: 80, background: 'white', borderRadius: 12 }} />
+         <div className="header logo-row" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+           <img className="logo-img aiite-logo" src="/atal.png" alt="AICTE Logo" />
+           <img className="logo-img vaani-logo" src="/AICTE.png" alt="VAANI Logo" />
+           <img className="logo-img rcciit-logo" src="/rcc.png" alt="RCCIIT Logo" />
          </div>
       {/* Central Invitation Heading */}
       <div style={{ textAlign: 'center', margin: '2.5rem 0', fontSize: '1.35rem', lineHeight: '2.2rem' }}>
@@ -26,7 +26,7 @@ const App = () => {
         <p>
           আিোযের শবভোগ আযয়োজিত AICTE-VAANI প্রন্ব াত্রজত ব্ািংলা ভাষায প্র ুজিগত শবকোিযক উৎসোশহত করোর লযক্ষে আযয়োজিত ৩ - দিনব্যাপী দব্ন্বেষ কসদমনার
           - “অন্বেষণ ২০২৬: The Quest for Knowledge” আগোিী ৭ - ৯ জানুযাদর ২০২৬ তোশরযে আর শস শস আইআইটি-র সবযলঘোিো কেোম্পোযস অনুটিত হযত চযলযে।
-        </p>ma
+        </p>
         <p>
           উন্নত কম্পম্পউটিাং-এর শবশভন্ন প্রোসশিক সক্ষত্র স িন সুপারকম্পিউট িং, কৃত্রিম ব্ুত্রিমত্তা, এবাং ককাযান্টাম কম্পিউট িং-এ বোাংলো ভোষোয় জ্ঞোনচচচো ও প্র ুজিগত
           আযলোচনোর সক্ষত্র প্রসোশরত করোই এই সসশিনোযরর িূল লক্ষে।
@@ -43,11 +43,11 @@ const App = () => {
 
       {/* Footer - Bengali Text */}
       <div className="footer" style={{ flexDirection: 'column', textAlign: 'left', alignItems: 'flex-start', gap: '0.5rem', marginTop: '3rem', paddingTop: '2rem', maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
-        <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>ধনেবোেোযন্ত</div>
+        <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>ধন্যবাদান্তে</div>
         <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.4rem' }}>অন্বেষণ ২০২৬</div>
-        <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.4rem' }}>আন্বযাজক কদমট</div>
-        <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>তথ্েপ্র ুজি শবভোগ</div>
-        <div style={{ fontSize: '1rem' }}>আর শস শস ইনশিটিউি অফ ইনফযি চিন সিকযনোলজি</div>
+        <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.4rem' }}>আয়োজক কমিটি</div>
+        <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>তথ্যপ্রযুক্তি বিভাগ</div>
+        <div style={{ fontSize: '1rem' }}>আর সি সি ইনস্টিটিউট অফ ইনফরমেশন টেকনোলজি</div>
       </div>
     </div>
   );

@@ -1,3 +1,30 @@
+/* Responsive logo row for header */
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  object-fit: contain;
+  width: 120px;
+  height: 80px;
+  background: white;
+  border-radius: 12px;
+  transition: width 0.2s, height 0.2s;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    width: 70px;
+    height: 45px;
+  }
+  .logo-row {
+    gap: 0.5rem;
+  }
+}
 /* App.css - Invitation styling matching original theme */
 * {
   margin: 0;
