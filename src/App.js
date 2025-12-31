@@ -17,37 +17,41 @@ const App = () => {
         <div><span style={{ fontSize: '1.2rem', color: 'black',fontWeight: 'bold'}}>AICTE-VAANI</span> প্রযোজিত বাংলা ভাষায় প্রযুক্তি শিক্ষার প্রসারে একটি বিশেষ সেমিনার</div>
         <div style={{ fontSize: '1.7rem', marginTop: '1.2rem', fontWeight: 'bold', color: 'red' }}>অন্বেষণ : The Quest for Knowledge</div>
         <div style={{ fontSize: '1.2rem', color: '#22b3ea' }}>উন্নত কম্পিউটিং (সুপারকম্পিউটিং, কৃত্রিম বুদ্ধিমত্তা, কোয়ান্টাম কম্পিউটিং)</div>
-        <div>(অন্বেষণ ২০২৬)</div>
+        <div style={{ color: 'red' }}>(অন্বেষণ ২০২৬)</div>
+        <div style={{ fontSize: '1rem'}}>আবেদন ক্রমাঙ্ক ২০৩৪৭২৯০৯৮</div>
         <div style={{ marginTop: '1.2rem',color: '#74501aff' }}>অন্বেষণ ২০২৬ - বক্তা হিসেবে উপস্থিতির জন্য আন্তরিক আমন্ত্রণ</div>
       </div>
       {/* Invitation Text */}
       <div className="invitation-text" style={{ fontSize: '1rem', rgin: '2.5rem auto', maxWidth: 900, color: 'black', lineHeight: '2.1rem' }}>
         <p style={{ fontWeight: 'bold', textAlign: 'left' }}>মাননীয় মহাশয়,</p>
         <p>
-          আিোযের শবভোগ আযয়োজিত AICTE-VAANI প্রন্ব াত্রজত ব্ািংলা ভাষায প্র ুজিগত শবকোিযক উৎসোশহত করোর লযক্ষে আযয়োজিত ৩ - দিনব্যাপী দব্ন্বেষ কসদমনার
-          - “অন্বেষণ ২০২৬: The Quest for Knowledge” আগোিী ৭ - ৯ জানুযাদর ২০২৬ তোশরযে আর শস শস আইআইটি-র সবযলঘোিো কেোম্পোযস অনুটিত হযত চযলযে।
+          আমাদের বিভাগ আয়োজিত <span style={{ fontWeight: 'bold' }}>AICTE-VAANI প্রযোজিত বাংলা ভাষায়</span> প্রযুক্তিগত বিকাশকে উৎসাহিত করার লক্ষ্যে আয়োজিত <span style={{ fontWeight: 'bold' }}>৩ - দিনব্যাপী বিশেষ সেমিনার</span>
+          - <span style={{ color: 'red',fontWeight: 'bold'}}>“অন্বেষণ ২০২৬: The Quest for Knowledge”</span> আগামী <span style={{ fontWeight: 'bold' }}>৭ - ৯ জানুয়ারি ২০২৬</span> তারিখে আর সি সি আইআইটি-র বেলেঘাটা ক্যাম্পাসে অনুষ্ঠিত হতে চলেছে।
         </p>
         <p>
-          উন্নত কম্পম্পউটিাং-এর শবশভন্ন প্রোসশিক সক্ষত্র স িন সুপারকম্পিউট িং, কৃত্রিম ব্ুত্রিমত্তা, এবাং ককাযান্টাম কম্পিউট িং-এ বোাংলো ভোষোয় জ্ঞোনচচচো ও প্র ুজিগত
-          আযলোচনোর সক্ষত্র প্রসোশরত করোই এই সসশিনোযরর িূল লক্ষে।
+         উন্নত কম্পিউটিং-এর বিভিন্ন প্রাসঙ্গিক ক্ষেত্র যেমন <span style={{ fontWeight: 'bold' }}>সুপারকম্পিউটিং, কৃত্রিম বুদ্ধিমত্তা, এবং কোয়ান্টাম কম্পিউটিং</span>-এ বাংলা ভাষায় জ্ঞানচর্চা ও প্রযুক্তিগত
+      আলোচনার ক্ষেত্র প্রসারিত করাই এই সেমিনারের মূল লক্ষ্য।
         </p>
         <p>
-          এই সপ্রশক্ষযত, আপনোর িূলেবোন অশভজ্ঞতো, গযবষণো ও েৃটিভশি আিোযের শিক্ষক, গযবষক ও নবীন প্র ুজি-সপিোিীবীযের িনে অতেন্ত অনুযপ্ররণোেোয়ক হযব। তোই,
-          আিরো আপনোযক এই সসশিনোযর ব্ক্তা দিন্বসন্বব্ আন্তদরক আমন্ত্রণ িোনোজি। আপনোর উপশিশত অনুিোনটির িোযনোন্নয়ন করযব এবাং অাংিগ্রহণকোরীযের
-          জ্ঞোনভোণ্ডোরযক সিৃদ্ধ করযব বযল আিোযের শবশ্বোস।
+         এই প্রেক্ষিতে, আপনার মূল্যবান অভিজ্ঞতা, গবেষণা ও দৃষ্টিভঙ্গি আমাদের শিক্ষক, গবেষক ও নবীন প্রযুক্তি-পেশাজীবীদের জন্য অত্যন্ত অনুপ্রেরণাদায়ক হবে। তাই,
+      আমরা আপনাকে এই সেমিনারে <span style={{ fontWeight: 'bold' }}>বক্তা হিসেবে আন্তরিক আমন্ত্রণ</span> জানাচ্ছি। আপনার উপস্থিতি অনুষ্ঠানটির মানোন্নয়ন করবে এবং অংশগ্রহণকারীদের
+      জ্ঞানভাণ্ডারকে সমৃদ্ধ করবে বলে আমাদের বিশ্বাস।
         </p>
         <p>
-          আপনোর সেয় সম্মশত সপযল আিরো পরবতী সিস্ত আযয়োিন সাংক্রোন্ত তথ্ে দ্রুত পোটিযয় সেব।
+          আপনার সদয় সম্মতি পেলে আমরা পরবর্তী সমস্ত আয়োজন সংক্রান্ত তথ্য দ্রুত পাঠিয়ে দেব।
         </p>
       </div>
 
       {/* Footer - Bengali Text */}
-      <div className="footer" style={{ flexDirection: 'column', textAlign: 'left', alignItems: 'flex-start', gap: '0.5rem', marginTop: '3rem', paddingTop: '2rem', maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
+      <div className="footer" style={{ flexDirection: 'column', textAlign: 'left', alignItems: 'flex-start', gap: '0.5rem', marginTop: '1rem',  maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
         <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>ধন্যবাদান্তে</div>
         <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.4rem' }}>অন্বেষণ ২০২৬</div>
         <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.4rem' }}>আয়োজক কমিটি</div>
         <div style={{ fontSize: '1rem', marginBottom: '0.4rem' }}>তথ্যপ্রযুক্তি বিভাগ</div>
         <div style={{ fontSize: '1rem' }}>আর সি সি ইনস্টিটিউট অফ ইনফরমেশন টেকনোলজি</div>
+      </div>
+      <div className="footer2" style={{ flexDirection: 'column', textAlign: 'center', alignItems: 'flex-start', gap: '0.5rem', marginTop: '1rem',  maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
+        প্রচারপত্র: <a href="https://drive.google.com/file/d/1El_vqovvz53hSwvysEhf4CnDrS4nYH3T/view?usp=sharing" target="_blank" rel="noopener noreferrer">View PDF</a>
       </div>
     </div>
   );
